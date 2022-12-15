@@ -80,7 +80,7 @@ function SignUp() {
             />
             {formik.touched.lastName && formik.errors.lastName?<p>{formik.errors.lastName}</p>:null}
            <TextField
-                label='email'
+                label='Email'
                 name='email'
                 type="email"
                 onChange={formik.handleChange}
